@@ -1,0 +1,11 @@
+.main-body {
+  margin: 0px 0px !important;
+  padding: 0px 0px !important;
+  min-width: 1440px;
+  width: 100%;
+  min-height: 100vh !important  ;
+  background: var(--system-background, #f6f8fa);
+  display: flex;
+  flex-direction: row;
+  gap: 1.5%;
+}
