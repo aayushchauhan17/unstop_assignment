@@ -1,0 +1,7 @@
+.right-container {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 750px;
+  height: fit-content;
+  border-radius: 10px;
+}

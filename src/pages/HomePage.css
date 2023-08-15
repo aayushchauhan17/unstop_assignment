@@ -7,5 +7,5 @@
   background: var(--system-background, #f6f8fa);
   display: flex;
   flex-direction: row;
-  gap: 1.5%;
+  gap: 1.2%;
 }

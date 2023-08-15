@@ -1,7 +1,13 @@
 import React from "react";
+import "./rightComp.css";
+import TopHeader from "./TopHeader";
 
 function RightComp() {
-  return <p>Right</p>;
+  return (
+    <div className="right-container">
+      <TopHeader />
+    </div>
+  );
 }
 
 export default RightComp;
