@@ -5,3 +5,9 @@
   height: fit-content;
   border-radius: 10px;
 }
+
+.right-bottom-conatainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

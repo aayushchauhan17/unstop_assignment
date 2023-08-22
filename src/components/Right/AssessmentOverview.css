@@ -1,0 +1,143 @@
+.container {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container .assign {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+
+.agenda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.overview-number {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.upper-head {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+}
+
+.box-upper {
+  display: flex;
+  width: 162px;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-right: 1px solid #dadce0;
+}
+
+.succed-num {
+  color: var(--status-success, #05c165);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 16.8px */
+}
+
+.overview-numbers {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.num-bottom-text {
+  color: #1c4980;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 16.8px */
+  margin-top: -22px;
+}
+
+.scors-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.full-bottom-frame {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.full-bottom-frame img {
+  margin-top: 12px;
+}
+
+.full-bottom-frame-data {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.center-box {
+  display: flex;
+  min-width: fit-content;
+  width: max-content;
+  padding: 10px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+  border-right: 1px solid #dadce0;
+}
+
+.boarder {
+  border-right: 1px solid #dadce0;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.overview-box {
+  display: flex;
+  width: fit-content;
+  border: 1px solid #dadce0;
+  border-radius: 12px;
+  justify-self: space-around;
+}
+
+.right-box {
+  display: flex;
+  width: 188px;
+  padding: 16px 50px 16px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.overview-container {
+  display: flex;
+  justify-content: space-around;
+}
