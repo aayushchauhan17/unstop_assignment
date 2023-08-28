@@ -141,3 +141,54 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width : 726px) {
+  .overview-container{
+    background-color: white;
+  }
+  .overview-box{
+    width: 90%;
+    flex-direction: column !important;
+  }
+  .mobile-bar-top{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+  }
+  .box-upper {
+    width: 45.5%;
+    height: fit-content;
+    padding: 0px 10px;
+    gap: 10px;
+    border: 0px;
+  }
+  #mobile-box-upper{
+    border-right: 1px solid #dadce0;
+  }
+  .agenda {
+    gap: 10px;
+    margin-top: -30px;
+  }
+  .overview-number{
+    font-size: 18px;
+  }
+  .upper-head {
+    font-size: 15px;
+  }
+  .center-box {
+    width: 95%;
+    padding: 0px 10px;
+    border-right: 0px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+  }
+  .full-bottom-frame{
+    margin-top: -25px;
+  }
+  .full-bottom-frame-data{
+    gap: 10px;
+    margin-left: -10px;
+  }
+  #mobile-lower-box{
+    border-bottom: 0px solid #dadce0 !important;
+  }
+}

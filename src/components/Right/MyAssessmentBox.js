@@ -24,19 +24,37 @@ function MyAssessmentBox({ add = false }) {
           </div>
         ) : (
           <div className="new-ass">
-            <div className="images">
-              <img width="50px" height="50px" src={BagImg} alt="BagImg" />
-              <img width="20px" height="20px" src={Dots} alt="Dots" />
-            </div>
-            <div className="ass_name">
-              <h3>Math Assessment</h3>
-              <div className="details">
-                <p>Job </p>
-                <span>|</span>
-                <img src={Cal} alt="Cal" />
-                <span>20 Apr 2023</span>
+            {window.innerWidth <= 726? <div className="mobile-view-box" >
+              <div className="images">
+                <img width="60px" height="60px" src={BagImg} alt="BagImg" />
+                <div className="ass_name">
+                  <h3>Math Assessment</h3>
+                  <div className="details">
+                    <p>Job </p>
+                    <span>|</span>
+                    <img src={Cal} alt="Cal" />
+                    <span>20 Apr 2023</span>
+                  </div>
+                </div>
               </div>
-            </div>
+              <img className="mobile-view-box-img" width="15px" height="15px" src={Dots} alt="Dots" /> 
+
+            </div> : <>
+              <div className="images">
+                <img width="50px" height="50px" src={BagImg} alt="BagImg" />
+                <img width="20px" height="20px" src={Dots} alt="Dots" />
+              </div>
+              <div className="ass_name">
+                <h3>Math Assessment</h3>
+                <div className="details">
+                  <p>Job </p>
+                  <span>|</span>
+                  <img src={Cal} alt="Cal" />
+                  <span>20 Apr 2023</span>
+                </div>
+              </div>
+            </> }
+            
             <div className="bottom-details">
               <div className="time_ques">
                 <span>
@@ -50,10 +68,13 @@ function MyAssessmentBox({ add = false }) {
               </div>
               <div className="bottom-details-right">
                 <span>
-                  <img width="25px" height="25px" src={Link} alt="link" />
+                  <img width={window.innerWidth <= 726 ? 16 : 25 } height={window.innerWidth <= 726 ? 16 : 25} src={Link} alt="link" />
                   <p>Share</p>
                 </span>
-                <p className="userText">LP</p>
+                <div>
+                  <p className="userText">LP</p>
+                </div>
+                <p className="userNo">+356</p>
               </div>
             </div>
           </div>
