@@ -8,7 +8,7 @@ function NavBox({ title, image, isSelected = false, showAdmin = false }) {
         isSelected ? "nav-box-container-selected" : "nav-box-container"
       }
     >
-      {showAdmin ? (
+      {showAdmin && window.innerWidth > 726 ? (
         <div className="show-admin">
           <p>Admin</p>
         </div>
@@ -17,6 +17,13 @@ function NavBox({ title, image, isSelected = false, showAdmin = false }) {
       )}
       <img src={image} width={25} height={25} alt={image} />
       <p>{title}</p>
+
+      {
+        window.innerWidth <= 726 && showAdmin && 
+            <div className="show-admin">
+              <p>Admin</p>
+            </div>
+      }
     </div>
   );
 }

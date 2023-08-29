@@ -6,15 +6,17 @@ import Filter from "./../../assets/images/filter.svg"
 import Bar from "./../../assets/images/bar.svg"
 import MyAssessmentBox from '../Right/MyAssessmentBox';
 import AssessmentOverview from '../Right/AssessmentOverview';
+import MobileSideMenu from './MobileSideMenu';
 
 
 function MobileComp(){
     const [showBar, setShowBar] = React.useState(false)
+    const [showSideMenu, setShowSideMenu] = React.useState(false)
     return(
         <>
           <div className='mobile-container'>
             <div className='mobile-header' >
-                <img src={Menu} alt='menu' />
+                <img onClick={()=>{setShowSideMenu(true)}} src={Menu} alt='menu' />
                 <p>Assessment</p>
             </div>
             
@@ -40,6 +42,7 @@ function MobileComp(){
 
             </div>
           </div>
+          {showSideMenu && <MobileSideMenu setShowSideMenu={setShowSideMenu} />}
         </>
     )
 }

@@ -50,9 +50,34 @@
 
 .show-admin p {
   color: #d63500;
-  font-family: Inter;
   font-size: 11px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media screen and (max-width: 726px) {
+  .nav-box-container {
+    flex-direction: row;
+  }
+  
+  .nav-box-container-selected {
+    flex-direction: row;
+  }
+
+  .nav-box-container p{
+    margin-left: 20px;
+  }
+  .nav-box-container-selected p{
+    margin-left: 20px;
+  }
+  .show-admin {
+    margin-left: 20px;
+    padding: 3px 5px;
+    width: 40px !important;
+    margin-bottom: 3px;
+  }
+  .show-admin p{
+    margin-left: 2px;
+  }
 }
