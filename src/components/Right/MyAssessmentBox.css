@@ -403,3 +403,78 @@
   color: white;
   font-size: 19px;
 }
+
+@media screen and (max-width :726px) {
+  .model-container{
+    width: 100vw;
+    height: 100vh;
+    z-index: 2 !important;
+    justify-content: baseline;
+    align-items: end;
+    position: fixed;
+  }
+  .model-body{
+    width: 100%;
+    height: 700px;
+    overflow: scroll;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .model-header{
+    height: 60px;
+    padding: 0px 5px ;
+    position: fixed;
+    background-color: white;
+    width: 90%;
+    top:18.5%;
+  }
+  .model-header h1{
+    font-size: 20px;
+  }
+  .model-input-box{
+    gap: 5px;
+    width: 110%;
+  }
+  .model-input-box p{
+    font-size: 16px;
+  }
+  .model-input-box input{
+    height: 40px;
+    padding: 2px 10px;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .model-input-box select{
+    height: 44px;
+    width: 86%;
+    padding: 2px 10px;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .model-select-skill{
+    padding: 0px 8px 0px 5px;
+  }
+  .model-select-skill p{
+    font-size: 12px;
+  }
+  
+  .model-skills{
+    width: 77.2%;
+    display: flex;
+    padding: 16px;
+    gap: 5px;
+  }
+  .model-save-button{
+    width: 85vw;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+  }
+  .model-save-button button{
+    display: flex;
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+}

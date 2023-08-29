@@ -35,6 +35,8 @@ function MobileComp(){
                 <MyAssessmentBox add={true} />
                 <MyAssessmentBox />
                 <MyAssessmentBox />
+                <MyAssessmentBox />
+                <MyAssessmentBox />
 
             </div>
           </div>

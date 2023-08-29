@@ -144,7 +144,7 @@
 
 @media screen and (max-width : 726px) {
   .overview-container{
-    background-color: white;
+    background-color: white ;
   }
   .overview-box{
     width: 90%;
