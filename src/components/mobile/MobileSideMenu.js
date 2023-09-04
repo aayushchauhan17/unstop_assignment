@@ -11,9 +11,9 @@ import Admin from "../../assets/images/admin_meds.svg";
 function MobileSideMenu({setShowSideMenu}){
     return(
         <>
-        <div className="model-container">
-          <div className="model-body">
-            <div className="model-menu-header">
+        <div className="model-slide-container">
+          <div className="model-slide-body">
+            <div className="model-slide-menu-header">
               <p>
                 Menu
               </p>

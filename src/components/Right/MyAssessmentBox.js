@@ -74,7 +74,7 @@ function MyAssessmentBox({ add = false }) {
                 <div>
                   <p className="userText">LP</p>
                 </div>
-                <p className="userNo">+356</p>
+                {window.innerWidth <= 726 && <p className="userNo">+356</p>}
               </div>
             </div>
           </div>
