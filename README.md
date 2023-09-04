@@ -1,3 +1,23 @@
+# Desktop View
+
+<img width="1710" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/82c2d375-d23c-4997-925b-5bfaea71add5">
+<img width="1710" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/ee2752a0-6662-40fc-87e4-6816781cab1a">
+
+
+
+# Mobile View
+
+<img width="415" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/f37ac894-a14a-4035-9bc1-53134bdcc34d">
+<img width="415" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/ffd642c4-971d-48d6-8b9f-afc8c43a6053">
+<img width="415" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/b1cd7e89-c4bc-46e4-a6de-df4483957cb6">
+<img width="415" alt="image" src="https://github.com/aayushchauhan17/unstop_assignment/assets/71113988/2c1abe83-ff30-4ab6-a8cb-7b082f50228a">
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
